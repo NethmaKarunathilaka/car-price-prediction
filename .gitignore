@@ -7,6 +7,9 @@ env/
 *.csv
 *.xlsx
 *.xls
+*.zip
+*.pkl
+*.png
 
 # Python cache
 __pycache__/

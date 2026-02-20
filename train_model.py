@@ -7,6 +7,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import joblib
 from pathlib import Path
 
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -190,3 +191,18 @@ print("Outputs:")
 print("  1. Results Table (above)")
 print("  2. predicted_vs_actual.png")
 print("  3. feature_importance_top20.png")
+print("\n" + "="*80)
+print("SAVING MODEL ARTIFACTS")
+print("="*80)
+
+# Save the trained model
+joblib.dump(best_model, "rf_model.pkl")
+print("✓ Saved: rf_model.pkl")
+
+# Save feature columns to ensure alignment at inference
+joblib.dump(X.columns.tolist(), "feature_columns.pkl")
+print("✓ Saved: feature_columns.pkl")
+
+print("="*80)
+print("Model artifacts saved successfully!")
+print("You can now use app.py for predictions.\n")

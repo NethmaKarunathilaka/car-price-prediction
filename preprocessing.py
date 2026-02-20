@@ -4,6 +4,7 @@ import re
 
 import numpy as np
 import pandas as pd
+import joblib
 
 
 CURRENT_YEAR = pd.Timestamp.today().year
@@ -190,23 +191,44 @@ def preprocess(df: pd.DataFrame) -> pd.DataFrame:
 	return df[ordered_columns].reset_index(drop=True)
 
 
-def create_model_ready_dataset(df_clean: pd.DataFrame) -> pd.DataFrame:
-	# Encode categorical variables
-	model_df = df_clean.drop(columns=["url", "title_text"], errors="ignore")
+def create_model_ready_dataset(df_clean: pd.DataFrame, freq_maps: dict = None) -> tuple:
+	"""
+	Encode categorical variables:
+	- brand, fuel_type, transmission, location: one-hot encoding
+	- model: frequency encoding (high cardinality)
+	
+	Returns: (encoded_df, freq_maps)
+	If freq_maps is None, builds maps from training data.
+	If freq_maps is provided, applies saved maps for inference.
+	"""
+	model_df = df_clean.drop(columns=["url", "title_text"], errors="ignore").copy()
+	
+	# Build or apply frequency map for 'model'
+	if freq_maps is None:
+		# Training mode: build frequency map
+		model_counts = model_df["model"].value_counts(normalize=True)
+		freq_maps = {"model": model_counts.to_dict()}
+		# Apply frequency encoding
+		model_df["model"] = model_df["model"].map(freq_maps["model"]).fillna(freq_maps["model"].get("Unknown", 0.0))
+	else:
+		# Inference mode: apply saved frequency map
+		model_df["model"] = model_df["model"].map(freq_maps["model"]).fillna(freq_maps["model"].get("Unknown", 0.0))
+	
+	# One-hot encode remaining categorical columns (excluding model)
 	model_df = pd.get_dummies(
 		model_df,
-		columns=["brand", "model", "fuel_type", "transmission", "location"],
+		columns=["brand", "fuel_type", "transmission", "location"],
 		dtype=int,
 	)
-	# Prepare final modelling dataset
-	return model_df
+	
+	return model_df, freq_maps
 
 
 def run(input_path: Path, clean_output_path: Path, model_output_path: Path) -> None:
 	# Load dataset
 	raw_df = load_dataset(input_path)
 	clean_df = preprocess(raw_df)
-	model_df = create_model_ready_dataset(clean_df)
+	model_df, freq_maps = create_model_ready_dataset(clean_df)
 
 	clean_df.to_csv(clean_output_path, index=False)
 	model_df.to_csv(model_output_path, index=False)
@@ -216,6 +238,10 @@ def run(input_path: Path, clean_output_path: Path, model_output_path: Path) -> N
 	print(f"Model-ready rows: {len(model_df):,}")
 	print(f"Saved cleaned dataset: {clean_output_path}")
 	print(f"Saved model-ready dataset: {model_output_path}")
+	
+	# Save frequency maps for model column (used during inference)
+	joblib.dump(freq_maps, "model_freq_maps.pkl")
+	print(f"Saved frequency maps: model_freq_maps.pkl")
 
 
 def parse_args() -> argparse.Namespace:

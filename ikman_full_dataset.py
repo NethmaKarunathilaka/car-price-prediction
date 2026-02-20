@@ -113,7 +113,7 @@ def parse_ad_detail(ad_url: str):
 
 # ---------- main ----------
 def main():
-    PAGES = 25  # start with 10 pages (~200-ish ads). Increase to 20–30 if needed.
+    PAGES = 35  # start with 10 pages (~200-ish ads). Increase to 20–30 if needed.
     all_urls = []
     for p in range(1, PAGES + 1):
         print(f"Collecting URLs from list page {p}/{PAGES}")
