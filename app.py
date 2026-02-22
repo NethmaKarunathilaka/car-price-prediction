@@ -1,128 +1,138 @@
+from datetime import datetime
+
 import joblib
+import numpy as np
 import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
 
-CURRENT_YEAR = 2025
-MODEL_PATH = "rf_model.pkl"
+CURRENT_YEAR = datetime.now().year
+MODEL_PATH = "catboost_model.pkl"
 FEATURES_PATH = "feature_columns.pkl"
-FREQ_MAPS_PATH = "model_freq_maps.pkl"
 
 
 @st.cache_resource
 def load_artifacts():
     model = joblib.load(MODEL_PATH)
     feature_columns = joblib.load(FEATURES_PATH)
-    freq_maps = joblib.load(FREQ_MAPS_PATH)
-    return model, feature_columns, freq_maps
+    return model, feature_columns
 
 
-def format_lkr(value: float) -> str:
-    return f"LKR {value:,.0f}"
+def format_millions(value: float) -> str:
+    return f"{value:,.2f} M"
 
 
 def build_input_dataframe(
-    year: int,
-    mileage_km: float,
-    engine_capacity_cc: float,
-    fuel_type: str,
-    transmission: str,
     brand: str,
     model_name: str,
-    location: str,
+    year: int,
+    mileage_km: float,
+    fuel_type: str,
+    engine_capacity_cc: float,
+    transmission: str,
 ) -> pd.DataFrame:
-    vehicle_age = CURRENT_YEAR - year
-
     row = {
-        "year": year,
-        "mileage_km": mileage_km,
-        "engine_capacity_cc": engine_capacity_cc,
-        "vehicle_age": vehicle_age,
-        "fuel_type": fuel_type,
-        "transmission": transmission,
-        "brand": brand.strip(),
-        "model": model_name.strip(),
-        "location": location.strip(),
+        "Brand": brand.strip().title(),
+        "Model": model_name.strip().title(),
+        "Year": int(year),
+        "Mileage (km)": float(mileage_km),
+        "Fuel type": fuel_type.strip().title(),
+        "Engine capacity (CC)": float(engine_capacity_cc),
+        "Transmission": transmission.strip().title(),
     }
-
     return pd.DataFrame([row])
 
 
+def show_global_explanations(model, feature_columns):
+    if hasattr(model, "feature_importances_"):
+        importances = pd.DataFrame(
+            {
+                "Feature": feature_columns,
+                "Importance": model.feature_importances_,
+            }
+        ).sort_values("Importance", ascending=False)
+
+        st.subheader("Model Explanations")
+        st.caption("Top global feature importance values from the trained model.")
+        st.bar_chart(importances.head(10).set_index("Feature"))
+
+
+def show_local_explanations(model, input_aligned):
+    try:
+        from catboost import Pool
+
+        cat_features = [
+            idx
+            for idx, column in enumerate(input_aligned.columns)
+            if input_aligned[column].dtype == "object"
+        ]
+        input_pool = Pool(input_aligned, cat_features=cat_features)
+        shap_values = model.get_feature_importance(input_pool, type="ShapValues")
+
+        contributions = shap_values[0, :-1]
+        contribution_df = pd.DataFrame(
+            {
+                "Feature": input_aligned.columns,
+                "Contribution": contributions,
+                "AbsContribution": np.abs(contributions),
+            }
+        ).sort_values("AbsContribution", ascending=False)
+
+        st.caption("Top local feature contributions for this specific prediction.")
+        st.dataframe(
+            contribution_df[["Feature", "Contribution"]].head(10),
+            use_container_width=True,
+            hide_index=True,
+        )
+    except Exception:
+        st.info("Local contribution explanations are available for CatBoost-compatible models.")
+
+
 def main():
-    st.set_page_config(page_title="Car Price Predictor", layout="centered")
-    st.title("Car Price Prediction")
-    st.write("Predict `price_lkr` using your trained RandomForestRegressor model.")
+    st.set_page_config(page_title="Vehicle Price Predictor", layout="centered")
+    st.title("Vehicle Price Predictor")
+    st.write("Enter vehicle features, press predict, and view both price and explanations.")
 
     try:
-        rf_model, feature_columns, freq_maps = load_artifacts()
+        model, feature_columns = load_artifacts()
     except Exception as exc:
         st.error(f"Failed to load model files: {exc}")
-        st.info("Make sure `rf_model.pkl`, `feature_columns.pkl`, and `model_freq_maps.pkl` exist in the project folder.")
+        st.info("Ensure `catboost_model.pkl` and `feature_columns.pkl` are in the project folder.")
         return
 
     with st.form("prediction_form"):
-        st.subheader("Vehicle Details")
-
-        year = st.number_input("Year", min_value=1950, max_value=CURRENT_YEAR + 1, value=2018, step=1)
-        mileage_km = st.number_input("Mileage (km)", min_value=0.0, value=50000.0, step=1000.0)
-        engine_capacity_cc = st.number_input("Engine Capacity (cc)", min_value=50.0, value=1500.0, step=50.0)
-
-        fuel_type = st.selectbox("Fuel Type", ["Petrol", "Diesel", "Hybrid", "Electric"])
-        transmission = st.selectbox("Transmission", ["Automatic", "Manual", "Tiptronic"])
+        st.subheader("Input Features")
 
         brand = st.text_input("Brand", value="Toyota")
-        model_name = st.text_input("Model", value="Corolla")
-        location = st.text_input("Location", value="Colombo")
+        model_name = st.text_input("Model", value="Axio")
+        year = st.number_input("Year", min_value=1950, max_value=CURRENT_YEAR + 1, value=2018, step=1)
+        mileage_km = st.number_input("Mileage (km)", min_value=0.0, value=50000.0, step=1000.0)
+        fuel_type = st.selectbox("Fuel type", ["Petrol", "Diesel", "Hybrid", "Electric"])
+        engine_capacity_cc = st.number_input("Engine capacity (CC)", min_value=50.0, value=1500.0, step=50.0)
+        transmission = st.selectbox("Transmission", ["Automatic", "Manual", "Tiptronic"])
 
         submitted = st.form_submit_button("Predict Price")
 
     if submitted:
         try:
             input_df = build_input_dataframe(
-                year=year,
-                mileage_km=mileage_km,
-                engine_capacity_cc=engine_capacity_cc,
-                fuel_type=fuel_type,
-                transmission=transmission,
                 brand=brand,
                 model_name=model_name,
-                location=location,
+                year=year,
+                mileage_km=mileage_km,
+                fuel_type=fuel_type,
+                engine_capacity_cc=engine_capacity_cc,
+                transmission=transmission,
             )
 
-            # Apply frequency encoding to 'model' column using saved maps
-            model_map = freq_maps.get("model", {})
-            input_df["model"] = input_df["model"].map(model_map).fillna(model_map.get("Unknown", 0.0))
-            
-            # Apply one-hot encoding to remaining categorical columns
-            input_encoded = pd.get_dummies(input_df, columns=["brand", "fuel_type", "transmission", "location"], dtype=int)
-            input_aligned = input_encoded.reindex(columns=feature_columns, fill_value=0)
+            input_aligned = input_df.reindex(columns=feature_columns)
+            prediction = float(model.predict(input_aligned)[0])
 
-            prediction = rf_model.predict(input_aligned)[0]
-
-            st.success(f"Predicted Price: {format_lkr(prediction)}")
-            st.caption(f"Computed age: {CURRENT_YEAR - int(year)}")
-
-            if hasattr(rf_model, "feature_importances_"):
-                importances = pd.DataFrame(
-                    {
-                        "feature": feature_columns,
-                        "importance": rf_model.feature_importances_,
-                    }
-                ).sort_values("importance", ascending=False)
-
-                top10 = importances.head(10).sort_values("importance", ascending=True)
-
-                st.subheader("Top 10 Feature Importances")
-                fig, ax = plt.subplots(figsize=(9, 5))
-                ax.barh(top10["feature"], top10["importance"])
-                ax.set_xlabel("Importance")
-                ax.set_ylabel("Feature")
-                ax.set_title("RandomForest Top 10 Feature Importances")
-                plt.tight_layout()
-                st.pyplot(fig)
+            st.success(f"Predicted Price: {format_millions(prediction)}")
+            show_global_explanations(model, feature_columns)
+            show_local_explanations(model, input_aligned)
 
         except Exception as exc:
-            st.error("Prediction failed. Please check your inputs and model files.")
+            st.error("Prediction failed. Check your inputs and model artifacts.")
             st.exception(exc)
 
 
