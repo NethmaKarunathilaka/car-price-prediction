@@ -1,54 +1,50 @@
-# Car Price Prediction Model
+# Vehicle Price Prediction (Sri Lanka)
 
-This project scrapes vehicle data from ikman.lk and builds a machine learning model to predict car prices based on specifications.
+This project trains a car price prediction model and serves predictions through a Streamlit web app.
 
-## Files
+## Project Files
 
-- **ikman_full_dataset.py** – Web scraper for collecting vehicle listings from ikman.lk
-- **preprocessing.py** – Data preprocessing pipeline (convert types, handle missing values, feature engineering)
-- **preprocessing.ipynb** – Interactive Jupyter notebook version of preprocessing
-- **ikman_cars_model_ready.csv** – Final cleaned dataset ready for modeling
+- `app.py` – Streamlit app for interactive vehicle price prediction
+- `model_new.ipynb` – Main notebook for preprocessing, training, evaluation, and model export
+- `car_dataset_before_preprocessed.csv` – Reference dataset used by the app for dropdown values
+- `car_preprocessed.csv` – Preprocessed dataset
+- `cars_dataset_raw.csv` – Raw dataset
+- `catboost_model.pkl` – Trained model artifact used by the app
+- `feature_columns.pkl` – Saved feature column order for inference alignment
 
-## Usage
+## Setup
 
-### 1. Scrape Data
+1. Create and activate a Python virtual environment.
+2. Install required packages:
+
 ```bash
-python ikman_full_dataset.py
+pip install streamlit pandas numpy joblib catboost scikit-learn matplotlib seaborn shap
 ```
-Outputs: `ikman_cars_dataset.csv`
 
-### 2. Preprocess Data (Script)
+## Train / Export Model
+
+Run the notebook:
+
+- Open `model_new.ipynb`
+- Execute all cells in order
+- Ensure these files are generated in the project root:
+	- `catboost_model.pkl`
+	- `feature_columns.pkl`
+
+## Run the App
+
 ```bash
-python preprocessing.py
+streamlit run app.py
 ```
-Outputs: `ikman_cars_model_ready.csv`
 
-### 3. Preprocess Data (Notebook)
-Open and run `preprocessing.ipynb` cell-by-cell in Jupyter.
+The app:
 
-## Data Pipeline
+- Takes vehicle inputs (Brand, Model, Year, Mileage, Fuel type, Engine capacity, Transmission)
+- Predicts price in **millions of LKR**
+- Shows an estimated LKR value and a ±10% suggested range
+- Displays feature importance and CatBoost local explanation (SHAP-style contributions)
 
-1. **Load** – Read raw CSV
-2. **Inspect structure** – Check columns and schema
-3. **Handle missing values** – Fill/remove incomplete records
-4. **Convert data types** – Numeric/categorical normalization
-5. **Feature engineering** – vehicle_age, mileage_per_year
-6. **Handle outliers** – Clip to 1st–99th percentile
-7. **Encode categorical variables** – One-hot encoding
-8. **Prepare final modeling dataset** – Export cleaned data
+## Notes
 
-## Features
-
-- **price_lkr** (target) – Vehicle price in Sri Lankan Rupees
-- **brand, model** – Make and model
-- **year, mileage_km** – Age and odometer reading
-- **fuel_type, transmission** – Petrol, Diesel, Hybrid, Electric, etc.
-- **engine_capacity_cc** – Engine displacement
-- **location** – Sale location
-- **vehicle_age, mileage_per_year** – Engineered features
-
-## Next Steps
-
-- Train regression model (Random Forest, XGBoost, Linear Regression)
-- Evaluate on test set (MAE, RMSE, R²)
-- Deploy API for price predictions
+- `app.py` expects `catboost_model.pkl` and `feature_columns.pkl` in the same folder.
+- If `car_dataset_before_preprocessed.csv` is available, the app uses it to populate realistic dropdown values.
