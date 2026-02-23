@@ -1,0 +1,977 @@
+Price (M),Brand,Model,Year,Mileage (km),Fuel type,Engine capacity (CC),Transmission
+9.85,Toyota,Axio,2015,231000,Hybrid,1500,Automatic
+3.65,Nissan,Sunny,1998,140000,Petrol,650,Automatic
+153,Land Rover,Range Rover,2025,0,Hybrid,3000,Automatic
+10.7,Toyota,Raize,2020,75000,Petrol,1000,Automatic
+16.8,Toyota,Yaris Ativ,2025,0,Petrol,1200,Automatic
+3.075,Nissan,Serena,1995,131999,Diesel,2000,Automatic
+11.2,Toyota,Premio,2013,118000,Petrol,1500,Automatic
+45,Toyota,RAV4,2026,0,Hybrid,2500,Automatic
+11.6,Toyota,Corolla,2017,27000,Petrol,1300,Automatic
+105,Toyota,Land Cruiser Sahara,2023,95,Diesel,3340,Automatic
+45,Toyota,RAV4,2026,0,Hybrid,2500,Automatic
+65,Mercedes Benz,S300,2017,49800,Hybrid,2140,Automatic
+76,Toyota,Land Cruiser Sahara,2015,105000,Diesel,4461,Automatic
+12.85,Mitsubishi,Montero,2011,147700,Diesel,2500,Automatic
+72.5,Land Rover,Defender,2024,7000,Petrol,2000,Automatic
+54.5,Land Rover,Range Rover,2018,31000,Diesel,2000,Automatic
+34.5,Mercedes Benz,C200,2025,2000,Hybrid,1500,Automatic
+14.39,Toyota,Raize,2025,0,Hybrid,1200,Automatic
+54.5,Toyota,Land Cruiser Sahara,2015,138000,Petrol,4600,Automatic
+20.39,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+5.5,Hyundai,Grand i10,2016,95500,Petrol,998,Tiptronic
+3.075,Hyundai,Matrix,2000,168456,Petrol,1350,Automatic
+17.45,Toyota,Urban Cruiser,2026,0,Hybrid,1490,Automatic
+14.25,Toyota,Raize,2025,0,Hybrid,1200,Automatic
+7.75,Toyota,RAV4,2008,145000,Petrol,2000,Automatic
+14,Toyota,Raize,2025,0,Hybrid,1200,Automatic
+18.75,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+31.9,Land Rover,Discovery,2015,102000,Diesel,3000,Tiptronic
+8.3,Toyota,Aqua,2013,48000,Petrol,1500,Automatic
+18.3,Toyota,Yaris Ativ,2025,0,Hybrid,1500,Automatic
+51.85,Toyota,Land Cruiser Prado,2023,19000,Petrol,2700,Tiptronic
+32.9,Ford,Raptor Ranger,2025,0,Diesel,2000,Tiptronic
+4.9,Suzuki,Swift,2005,115000,Petrol,1300,Automatic
+15.8,Audi,A3,2023,35000,Petrol,1000,Automatic
+16,Honda,Vezel,2024,10000,Hybrid,1500,Automatic
+16,Honda,Vezel,2024,29000,Hybrid,1500,Automatic
+8.35,Toyota,Axio,2015,91000,Hybrid,1500,Automatic
+12.265,Kia,Other Model,2025,0,Petrol,1000,Tiptronic
+11.5,Kia,Other Model,2026,0,Petrol,1000,Automatic
+12.5,Ford,Focus,2018,93000,Petrol,1000,Tiptronic
+18.95,Toyota,Esquire,2015,104000,Hybrid,1800,Automatic
+3.5,Suzuki,Wagon R,2006,62520,Petrol,1061,Manual
+17.8,Honda,Vezel,2025,1000,Petrol,1500,Automatic
+17.95,Honda,Vezel,2026,0,Hybrid,1500,Tiptronic
+43.5,BMW,740Le,2018,27000,Petrol,2000,Automatic
+18.5,Toyota,Yaris Ativ,2025,0,Hybrid,1500,Automatic
+2.75,Hyundai,Elantra,1999,60200,Petrol,1599,Automatic
+1.175,Mitsubishi,Lancer,1979,40000,Petrol,1400,Manual
+2.475,Suzuki,Maruti,2007,70000,Petrol,800,Manual
+12.6,Honda,Civic,2018,79000,Petrol,1000,Automatic
+6.2,Suzuki,Swift,2010,75000,Petrol,1300,Automatic
+25.8,Toyota,Hilux,2025,0,Diesel,2800,Tiptronic
+13.7,Honda,City,2025,0,Petrol,1000,Tiptronic
+33,Mercedes Benz,C200,2024,4000,Hybrid,1500,Automatic
+6.29,Daihatsu,Mira,2023,20000,Petrol,660,Automatic
+7.45,Toyota,Rush,2010,156000,Petrol,1500,Automatic
+7.2,Hyundai,Tucson,2012,130000,Petrol,2000,Automatic
+8.55,Hyundai,Grand i10,2025,400,Petrol,1200,Tiptronic
+9.1,Suzuki,Wagon R ZX,2026,5,Hybrid,660,Automatic
+12.85,Toyota,Raize,2023,9000,Petrol,1200,Automatic
+2.965,Suzuki,Alto,2013,94000,Petrol,800,Manual
+13.8,Toyota,Premio,2017,108000,Petrol,1500,Automatic
+6.7,Toyota,Pixis,2024,6000,Petrol,660,Automatic
+19.45,Honda,Vezel,2025,230,Petrol,1490,Automatic
+2.635,Maruti Suzuki,800,2011,173000,Petrol,800,Manual
+15.565,Toyota,Yaris Cross,2023,14200,Hybrid,1500,Automatic
+8.25,Suzuki,Wagon R FX,2025,5,Hybrid,660,Automatic
+8.775,Honda,Fit,2017,69600,Hybrid,1500,Automatic
+10.799999,Toyota,Premio,2013,121000,Petrol,1500,Automatic
+10.2,Audi,A4,2011,94188,Petrol,1800,Automatic
+3.375,Honda,City,2000,200000,Petrol,1500,Automatic
+21.35,Toyota,Land Cruiser Sahara,2003,74500,Diesel,4200,Manual
+21.5,Toyota,Hilux,2025,33,Diesel,2800,Automatic
+9.875,Toyota,Premio,2011,150000,Petrol,1500,Automatic
+8.75,Toyota,Yaris,2023,51452,Petrol,990,Automatic
+28.5,Toyota,Hilux,2026,0,Diesel,2755,Automatic
+20.7,BMW,318i,2018,115000,Petrol,1500,Automatic
+7.15,Toyota,Aqua,2014,180000,Hybrid,1500,Automatic
+22,Mercedes Benz,C350,2016,75000,Hybrid,2000,Tiptronic
+6.45,Toyota,Corolla,2006,137250,Petrol,1500,Automatic
+30,Mercedes Benz,E180,2019,27000,Petrol,1497,Tiptronic
+8.45,Suzuki,Spacia,2023,20000,Hybrid,660,Automatic
+34.5,BMW,i8,2018,30000,Hybrid,1500,Automatic
+3.99,Suzuki,Alto,2015,59774,Petrol,800,Manual
+16.2,Toyota,Yaris Ativ,2025,0,Petrol,1200,Tiptronic
+8.25,Toyota,Vitz,2019,95000,Petrol,1000,Automatic
+10.7,Honda,Vezel,2015,45000,Hybrid,1500,Automatic
+19.8,Mercedes Benz,S350,2011,166000,Petrol,3500,Tiptronic
+7.3,Toyota,Axio,2007,183000,Petrol,1500,Automatic
+5.975,Suzuki,Hustler,2016,86500,Hybrid,660,Automatic
+12.7,Audi,A3,2019,117000,Petrol,1000,Automatic
+8.4,Toyota,Vitz,2018,61000,Petrol,990,Automatic
+54.9,Toyota,Land Cruiser Prado,2024,8700,Petrol,2700,Automatic
+1.765,Suzuki,Maruti,2004,225000,Petrol,796,Manual
+16.85,BMW,318i,2017,21000,Petrol,1500,Automatic
+8.2,Honda,Fit,2015,90000,Petrol,1500,Automatic
+11.475,Toyota,Premio,2014,116000,Petrol,1500,Automatic
+14.975,Toyota,Yaris Cross,2023,13850,Hybrid,1500,Automatic
+1.95,Honda,Civic,1989,180000,Petrol,1500,Manual
+52.5,Toyota,Land Cruiser Prado,2023,9000,Petrol,2700,Automatic
+59.5,Toyota,Alphard,2024,0,Petrol,2500,Automatic
+36.5,BMW,740e,2017,35000,Petrol,2000,Automatic
+19.5,Audi,A5,2018,69000,Petrol,1400,Automatic
+6.675,Daihatsu,Mira,2025,0,Petrol,660,Automatic
+15.5,BAIC,X55 II,2025,0,Petrol,1500,Tiptronic
+6.45,Mahindra,KUV 100,2024,48000,Diesel,1200,Automatic
+15.6,Mercedes Benz,E200,2010,55000,Petrol,1990,Automatic
+26.5,BMW,218i,2024,5000,Petrol,1500,Automatic
+19.8,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+8.475,Toyota,Roomy,2022,53000,Petrol,1000,Automatic
+7.25,Suzuki,Wagon R,2023,11000,Petrol,660,Automatic
+8.9,Toyota,Allion,2008,166000,Petrol,1500,Automatic
+15.4,Volkswagen,T-Cross,2024,7900,Petrol,1000,Automatic
+13.8,Mitsubishi,Outlander,2016,154000,Petrol,2400,Tiptronic
+18.4,Honda,Vezel,2024,9500,Hybrid,1500,Automatic
+9.995,Toyota,Yaris,2024,6000,Petrol,1000,Automatic
+12.95,Toyota,Raize,2025,4800,Hybrid,1200,Automatic
+13.9,Volkswagen,Polo,2024,14000,Petrol,1000,Automatic
+8.75,Suzuki,Swift,2018,66000,Petrol,1000,Automatic
+13.75,Toyota,Premio,2016,95000,Petrol,1500,Automatic
+16.9,BMW,523i,2010,100000,Petrol,2500,Automatic
+5.95,Nissan,Navara,2007,260000,Diesel,2500,Manual
+7.225,Toyota,Aqua,2014,103000,Hybrid,1500,Automatic
+15.5,Peugeot,5008,2018,68500,Petrol,1200,Automatic
+28.8,Toyota,Land Cruiser Prado,2011,188000,Diesel,3000,Automatic
+6.99,Daihatsu,Mira,2024,19000,Petrol,660,Automatic
+13.2,Toyota,Yaris,2023,28880,Hybrid,1500,Automatic
+16.975,Mitsubishi,Outlander,2016,98000,Hybrid,2000,Automatic
+19.95,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+19.45,Honda,Vezel,2026,10,Hybrid,1500,Automatic
+10.99,Suzuki,Fronx,2025,0,Hybrid,1000,Automatic
+24.5,BMW,335i,2014,110000,Petrol,3000,Automatic
+9.25,MG,ZS,2019,48000,Petrol,1000,Automatic
+6.39,Daihatsu,Mira,2023,4000,Petrol,660,Automatic
+29,Toyota,Hilux,2025,0,Diesel,2800,Tiptronic
+19.25,Honda,Vezel,2024,5000,Hybrid,1500,Automatic
+6.7,Toyota,Aqua,2012,160000,Hybrid,1500,Automatic
+13.195,Toyota,Axio,2017,109000,Hybrid,1500,Automatic
+13.7,Toyota,Raize,2025,12,Petrol,1,Automatic
+37.9,Mercedes Benz,C200,2023,26000,Petrol,1500,Automatic
+3.45,Micro,Panda,2017,34600,Petrol,1000,Manual
+36.5,Mercedes Benz,GLB,2025,97,Petrol,1300,Automatic
+115,BMW,i7,2024,18000,Electric,400,Automatic
+68.5,Land Rover,Defender,2024,12000,Petrol,2000,Automatic
+17.85,BMW,520d,2012,140000,Diesel,2000,Automatic
+7.6,Toyota,Vitz,2016,62000,Petrol,1000,Automatic
+3.875,Perodua,Viva Elite,2010,80700,Petrol,1000,Manual
+10.85,Toyota,Axio,2019,92300,Hybrid,1500,Automatic
+7.7,Suzuki,Wagon R FX,2025,1600,Petrol,660,Automatic
+31.8,Honda,CRV,2025,0,Petrol,1500,Automatic
+16.3,Toyota,Yaris Ativ,2025,10,Petrol,1,Automatic
+8.875,Honda,Vezel,2014,146000,Hybrid,1400,Automatic
+9.075,Honda,Vezel,2015,135100,Hybrid,1500,Automatic
+17,Toyota,Premio,2019,96200,Petrol,1499,Automatic
+9.5,Toyota,Axio,2014,132000,Hybrid,1499,Automatic
+6.45,Daihatsu,Mira,2025,1300,Petrol,660,Automatic
+15,MG,5 Long Range,2023,26000,Electric,61,Automatic
+9.8,Nissan,Magnite,2025,30,Petrol,1000,Automatic
+14,Subaru,Forester,2014,101900,Petrol,2000,Automatic
+11.5,Audi,Q2,2017,90000,Petrol,1000,Automatic
+3.99,Suzuki,Liana,2006,155000,Petrol,1300,Manual
+7.25,Toyota,Axio,2009,155000,Petrol,1500,Automatic
+7.3,Suzuki,Wagon R FX,2024,5185,Petrol,660,Automatic
+9.95,Toyota,Yaris,2023,7754,Petrol,1000,Automatic
+11.7,Land Rover,Freelander,2013,100000,Diesel,2200,Tiptronic
+10.45,Toyota,Yaris,2025,2956,Petrol,1000,Automatic
+19,BMW,X5,2015,140000,Diesel,3000,Automatic
+3.475,Suzuki,Alto,2005,165000,Petrol,658,Automatic
+8.75,Toyota,Yaris,2022,31000,Petrol,990,Automatic
+8.075,Nissan,Dayz,2023,18000,Hybrid,660,Automatic
+12.5,Mitsubishi,Outlander,2014,170000,Hybrid,2000,Automatic
+7.95,Suzuki,Wagon R FX,2024,1900,Hybrid,660,Automatic
+7.985,Nissan,Dayz,2023,8000,Hybrid,660,Automatic
+35.5,Mercedes Benz,C180,2023,17000,Petrol,1500,Automatic
+65,Land Rover,Defender,2023,17000,Petrol,2000,Automatic
+3.775,Suzuki,Alto,2015,111340,Petrol,800,Manual
+11.6,Toyota,Prius,2015,110000,Hybrid,1800,Automatic
+8.975,Honda,Vezel,2014,112000,Hybrid,1500,Automatic
+6.95,Mitsubishi,eK Wagon,2024,12000,Petrol,650,Automatic
+54.5,Toyota,Land Cruiser Prado,2023,16526,Petrol,2700,Automatic
+15.85,Toyota,Corolla,2023,3166,Petrol,1500,Automatic
+24,Toyota,Hilux,2023,9000,Diesel,2800,Automatic
+11.55,Toyota,Raize,2022,24672,Petrol,1000,Automatic
+37.45,Toyota,Harrier,2024,3000,Petrol,2000,Automatic
+8.6,Suzuki,Wagon R ZX,2025,107,Hybrid,660,Automatic
+21.5,BMW,318i,2018,23000,Petrol,1500,Automatic
+9.1,Honda,Vezel,2014,145411,Petrol,1490,Automatic
+19.5,Honda,CRV,2020,75000,Petrol,1500,Automatic
+12.5,Kia,Other Model,2025,9750,Petrol,1000,Automatic
+3.95,Nissan,Sunny,2002,313000,Petrol,1490,Automatic
+20.75,Mercedes Benz,C160,2018,76000,Petrol,1600,Automatic
+17.85,Honda,Vezel,2025,512,Hybrid,1500,Automatic
+3.675,Suzuki,Alto,2015,87000,Petrol,800,Manual
+10.5,Toyota,Prius,2015,167000,Hybrid,1800,Automatic
+3.99,Toyota,Sprinter,1999,179000,Petrol,1300,Automatic
+24.7,Toyota,Land Cruiser Prado,2012,200000,Diesel,2800,Manual
+23.9,Mercedes Benz,CLA 200,2019,40000,Petrol,1322,Automatic
+123,BMW,740i,2024,0,Petrol,3000,Tiptronic
+20,Toyota,Rush,2025,0,Petrol,1500,Automatic
+5.3,Toyota,Vitz,2007,121000,Petrol,1000,Automatic
+24,MG,HS Hybrid+,2025,0,Petrol,1490,Automatic
+5.8,Mitsubishi,L200,1992,253758,Diesel,2470,Manual
+13.5,Toyota,Allion,2016,108000,Petrol,1500,Automatic
+65,Jeep,Grand Cherokee,2025,0,Petrol,3604,Automatic
+7.4,Suzuki,Wagon R FX,2024,8000,Petrol,660,Automatic
+2.1,Kia,Spectra,2001,90000,Petrol,1600,Manual
+17.575,Honda,Vezel,2026,0,Hybrid,1490,Automatic
+9.4,Toyota,Yaris,2023,22000,Petrol,1000,Automatic
+4.76,Toyota,Passo,2007,162000,Petrol,990,Automatic
+6.8,Mitsubishi,eK Wagon,2025,5000,Petrol,660,Automatic
+7.9,Subaru,XV,2014,149000,Petrol,2000,Automatic
+12.5,Ford,Focus,2018,93000,Petrol,1000,Tiptronic
+76,Toyota,Land Cruiser Prado,2025,0,Diesel,2800,Automatic
+4.55,Suzuki,Alto,2016,105000,Petrol,998,Automatic
+27.5,Mercedes Benz,Other Model,2024,2000,Hybrid,1300,Automatic
+15.975,Toyota,Yaris Ativ,2025,0,Petrol,1200,Tiptronic
+14.65,Audi,A3,2018,34027,Petrol,1000,Tiptronic
+58.95,Toyota,Land Cruiser Prado,2024,4000,Petrol,2700,Automatic
+9.35,Toyota,Axio,2014,180000,Hybrid,1499,Automatic
+13.9,Toyota,CHR,2018,61105,Petrol,1500,Automatic
+12.25,Honda,CRV,2013,169000,Petrol,1990,Automatic
+31.7,Honda,CRV,2025,0,Petrol,1500,Tiptronic
+85,Land Rover,Range Rover,2019,78000,Petrol,2000,Automatic
+6.075,Nissan,Cefiro,2007,153000,Petrol,2400,Automatic
+44.5,BMW,740Le,2016,33500,Petrol,2000,Automatic
+18.9,Honda,Vezel,2026,0,Hybrid,1500,Automatic
+8.8,Toyota,Premio,2008,165000,Petrol,1500,Automatic
+8.8,Honda,Vezel,2013,130000,Hybrid,1499,Automatic
+20.2,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+3.69,Suzuki,Estilo,2011,141000,Petrol,998,Manual
+20,Toyota,Land Cruiser Sahara,2005,291000,Diesel,4500,Manual
+6.99,Toyota,Vitz,2016,105400,Petrol,1000,Automatic
+23.5,BMW,X5,2016,120000,Petrol,2000,Automatic
+11.99,Toyota,Raize,2025,0,Petrol,1000,Automatic
+17.8,BMW,318i,2016,64000,Petrol,1500,Automatic
+3.94,Suzuki,Alto,2008,139500,Petrol,650,Automatic
+8.15,Daihatsu,Taft,2024,0,Petrol,660,Automatic
+36.5,Audi,Q7,2016,71000,Petrol,3000,Automatic
+7.5,Toyota,Prius,2011,211000,Petrol,1500,Automatic
+24.95,BMW,218i,2023,18500,Petrol,1500,Automatic
+7.15,Toyota,Vitz,2015,141000,Petrol,990,Automatic
+7.175,Mitsubishi,eK Wagon,2023,9300,Petrol,660,Automatic
+4.975,Toyota,Corolla,2004,220000,Petrol,1300,Manual
+13,Peugeot,3008,2018,109500,Petrol,1200,Tiptronic
+31.9,Mercedes Benz,C180,2023,14800,Petrol,1500,Automatic
+11,Toyota,Yaris Ativ,2019,210000,Petrol,1200,Automatic
+2.65,Toyota,Other Model,1984,200000,Diesel,2400,Manual
+11.8,Ford,Kuga,2015,134000,Petrol,1500,Automatic
+6.85,Toyota,Vitz,2013,98200,Petrol,990,Automatic
+14.2,Toyota,Raize,2023,7800,Petrol,1200,Automatic
+9.2,Toyota,Roomy,2023,12000,Petrol,1000,Automatic
+8,Toyota,Aqua,2015,125000,Hybrid,1500,Automatic
+23.5,Ford,Raptor Ranger,2017,130000,Diesel,3200,Automatic
+11.19,Suzuki,Fronx,2026,0,Hybrid,1000,Automatic
+16.5,Toyota,Premio,2016,43324,Petrol,1500,Automatic
+47,Toyota,Harrier,2025,0,Hybrid,2500,Automatic
+51.9,Toyota,Land Cruiser Prado,2023,15000,Petrol,2700,Automatic
+12.09,Toyota,Taisor,2025,0,Petrol,1000,Automatic
+18.9,Audi,A3,2023,7100,Petrol,1000,Automatic
+51.9,Toyota,Land Cruiser Prado,2023,14700,Petrol,2700,Automatic
+12.25,Kia,Other Model,2025,0,Petrol,1000,Automatic
+16.9,Mazda,3,2023,18000,Petrol,1500,Automatic
+11.69,Toyota,Taisor,2025,0,Petrol,1000,Automatic
+5.395,Mitsubishi,Mirage,2012,94521,Petrol,1200,Automatic
+13,Toyota,Raize,2024,15200,Hybrid,1200,Automatic
+12.5,Hyundai,Venue,2025,0,Petrol,1000,Automatic
+19.09,Honda,Vezel,2025,100,Hybrid,1500,Automatic
+29.6,Ford,Raptor Ranger,2024,0,Diesel,3000,Tiptronic
+5.395,Nissan,Navara,2007,158508,Diesel,2500,Manual
+13.5,Peugeot,508,2015,108000,Diesel,2000,Automatic
+8.99,Nissan,Teana,2010,180000,Petrol,2500,Automatic
+2.975,Suzuki,Maruti,2005,84255,Petrol,1061,Manual
+18,Toyota,Yaris,2025,0,Hybrid,1499,Automatic
+16.2,Toyota,Yaris Cross,2025,34,Hybrid,1500,Automatic
+2.95,Toyota,Corolla,1997,330000,Diesel,2000,Automatic
+63.5,Toyota,Alphard,2025,0,Petrol,2500,Automatic
+11.2,BMW,320d,2011,186496,Diesel,2000,Automatic
+7.63,Toyota,Vitz,2018,101000,Petrol,990,Automatic
+20.4,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+8.95,Honda,Grace,2015,196500,Hybrid,1500,Automatic
+21,Toyota,Harrier,2014,103000,Petrol,2000,Automatic
+21,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+154.5,Land Rover,Range Rover PHEV,2025,0,Hybrid,3000,Automatic
+2.5,Kia,Clarus,2000,120000,Diesel,1970,Automatic
+4.15,Hyundai,Eon,2016,73000,Petrol,800,Manual
+8.9,Ford,Focus,2015,103000,Petrol,1600,Automatic
+3.65,Zotye,Z100,2021,18000,Petrol,1000,Manual
+26.8,Toyota,Hilux,2025,0,Diesel,2800,Automatic
+11.8,Kia,Other Model,2025,0,Petrol,1000,Automatic
+8.1,Toyota,Axio,2013,104463,Hybrid,1490,Automatic
+7.25,Suzuki,Wagon R FX,2024,8500,Petrol,660,Automatic
+19.85,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+25.5,Mercedes Benz,C200,2019,84000,Petrol,1500,Automatic
+12,Toyota,Taisor,2025,0,Petrol,1000,Automatic
+7.35,Suzuki,Wagon R FX,2024,5500,Petrol,660,Automatic
+16.5,Jaguar,XJ,2003,105000,Petrol,3000,Automatic
+18.75,Honda,Vezel,2024,15000,Hybrid,1496,Automatic
+26,BMW,X2,2019,45000,Petrol,1500,Tiptronic
+17.5,Honda,Vezel,2023,10000,Hybrid,1500,Automatic
+9.05,Suzuki,Wagon R,2025,0,Hybrid,660,Automatic
+6.3,Suzuki,Spacia,2016,72000,Hybrid,650,Automatic
+2.475,Toyota,Corsa,1993,251285,Diesel,1500,Manual
+17.5,Porsche,Cayenne,2013,93000,Hybrid,3000,Tiptronic
+21,Toyota,Land Cruiser Sahara,2000,147250,Petrol,4660,Automatic
+8.5,Toyota,Vitz,2018,47000,Petrol,990,Automatic
+20.3,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+29.5,Land Rover,Range Rover Velar,2018,127000,Diesel,1990,Automatic
+11.7,Kia,Other Model,2026,0,Petrol,1000,Automatic
+36,Toyota,Harrier,2024,12000,Petrol,2000,Automatic
+10.75,Mitsubishi,Montero,2003,212000,Petrol,3400,Tiptronic
+23,Audi,A3,2023,10000,Petrol,1000,Automatic
+11.8,Suzuki,Swift,2024,19000,Hybrid,1200,Automatic
+64,Toyota,Fortuner,2024,0,Petrol,2755,Automatic
+14.45,Toyota,Raize,2026,0,Hybrid,1200,Automatic
+6.475,Suzuki,Alto,2023,9000,Petrol,650,Automatic
+28,Jeep,Compass,2025,0,Petrol,1995,Automatic
+8.95,Hyundai,Santa Fe,2011,226250,Diesel,2200,Automatic
+16.5,Toyota,Voxy,2014,382000,Petrol,1800,Automatic
+13.5,Kia,Seltos,2025,0,Petrol,2000,Automatic
+23,Suzuki,Jimny,2025,0,Petrol,1462,Automatic
+7.8,Toyota,Vitz,2018,79000,Petrol,990,Automatic
+10.55,BMW,X1,2011,149500,Diesel,2000,Automatic
+15.7,Toyota,Yaris Cross,2025,10,Petrol,1500,Automatic
+11.5,Kia,Other Model,2025,100,Petrol,1000,Automatic
+5.995,Daihatsu,Mira,2024,10800,Petrol,650,Automatic
+7.99,Toyota,Passo,2023,9000,Petrol,1000,Automatic
+5.5,Toyota,Passo,2008,110000,Petrol,1000,Automatic
+5.1,Nissan,Tiida,2010,201000,Petrol,1500,Automatic
+56.5,Toyota,Land Cruiser Sahara,2015,134000,Petrol,4500,Tiptronic
+37.5,Mercedes Benz,C200,2023,4500,Petrol,1500,Automatic
+5.85,Suzuki,Hustler,2015,125000,Hybrid,650,Automatic
+7.45,Daihatsu,Cast Activa,2022,11000,Petrol,660,Automatic
+13.775,Toyota,Raize,2025,0,Hybrid,1200,Automatic
+13.95,Toyota,Raize,2025,0,Hybrid,1200,Automatic
+6.35,Toyota,Belta,2009,177000,Petrol,1000,Automatic
+13.785,Toyota,Raize,2025,0,Hybrid,1200,Automatic
+23.9,BMW,318i,2018,39500,Petrol,1500,Tiptronic
+33.5,Toyota,Land Cruiser Prado,2014,88000,Petrol,2700,Automatic
+28.99,Toyota,Hilux,2026,3,Diesel,2800,Automatic
+29.9,Toyota,Land Cruiser Prado,2013,195000,Diesel,3000,Automatic
+13.25,Toyota,Raize,2025,3,Hybrid,1200,Automatic
+3.08,Nissan,Wingroad,1999,225000,Petrol,1490,Manual
+18,Honda,Vezel,2025,3,Hybrid,1500,Automatic
+8.19,Nissan,Dayz,2024,600,Hybrid,660,Automatic
+7.425,Suzuki,Swift,2018,137848,Petrol,1000,Automatic
+5.9,Kia,Picanto,2016,43500,Petrol,1000,Automatic
+14.9,Mitsubishi,Outlander,2015,120000,Petrol,2400,Automatic
+148.5,Mercedes Benz,G400d,2023,5000,Diesel,2900,Automatic
+55,Toyota,Vellfire,2024,0,Hybrid,2500,Automatic
+12,Honda,City,2024,7000,Petrol,1000,Automatic
+19.1,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+20.25,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+13.49,Toyota,CHR,2018,53000,Petrol,1200,Automatic
+20.59,Honda,Vezel,2025,0,Hybrid,1490,Automatic
+10.85,Toyota,Roomy,2025,0,Petrol,1000,Automatic
+13.5,Daihatsu,Rocky,2024,7000,Hybrid,1200,Automatic
+9.075,Nissan,Roox,2024,2000,Hybrid,660,Automatic
+28.5,Toyota,RAV4,2020,36000,Petrol,2000,Automatic
+12.5,Mitsubishi,Montero,2003,198230,Petrol,3500,Automatic
+10.5,Honda,Jade,2016,97000,Hybrid,1500,Automatic
+3.8,Suzuki,Alto,2015,79000,Petrol,800,Manual
+13.55,Toyota,CHR,2017,98466,Petrol,1200,Automatic
+6.96,Suzuki,Wagon R Stingray,2018,168000,Petrol,658,Automatic
+7.75,Honda,Civic,2012,198000,Petrol,1600,Automatic
+11.15,Honda,Vezel,2017,93000,Hybrid,1490,Automatic
+9.59,DFSK,Glory,2022,40000,Petrol,1500,Automatic
+43.59,BMW,X1,2024,0,Hybrid,1490,Automatic
+16,Audi,A3,2024,9000,Petrol,1000,Automatic
+11,Toyota,Roomy,2025,0,Petrol,1000,Automatic
+13.59,Toyota,Raize,2025,0,Petrol,1200,Automatic
+3.47,Suzuki,Alto,2003,120000,Petrol,680,Automatic
+5.75,Suzuki,Hustler,2017,125112,Petrol,660,Automatic
+4.345,Nissan,Sunny,2001,140000,Petrol,1500,Automatic
+7.275,Nissan,Dayz,2024,18000,Petrol,660,Automatic
+13.95,Toyota,Raize,2025,0,Hybrid,1200,Automatic
+32.85,Land Rover,Discovery,2015,100000,Diesel,3000,Automatic
+25.5,Mercedes Benz,C200,2019,39000,Petrol,1500,Automatic
+15.5,Volkswagen,T-Cross,2023,3000,Petrol,1000,Tiptronic
+5.975,Micro,Actyon,2008,129900,Diesel,2000,Manual
+28.5,BMW,X5,2016,66000,Hybrid,2000,Automatic
+12,Honda,Civic,2018,75000,Petrol,1000,Automatic
+25.25,Toyota,Crown,2014,102000,Hybrid,2500,Tiptronic
+7.5,Toyota,Vitz,2017,130000,Petrol,1000,Automatic
+275,Bentley,Other Model,2024,0,Petrol,4000,Automatic
+29.285,Mercedes Benz,C200,2020,14000,Petrol,1500,Automatic
+15.49,Toyota,Yaris Cross,2023,32000,Hybrid,1500,Automatic
+15.79,Toyota,Yaris Cross,2023,24000,Hybrid,1500,Automatic
+7,Kia,Rio,2015,16502,Petrol,1400,Automatic
+9.5,Toyota,Allion,2008,84400,Petrol,1500,Automatic
+13.5,Audi,Q2,2018,76000,Petrol,1000,Automatic
+8.65,Nissan,Roox,2023,12500,Petrol,650,Automatic
+33.7,Ford,Raptor Ranger,2025,0,Diesel,2000,Tiptronic
+19.89,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+9.2,DFSK,Glory,2022,18779,Petrol,1500,Automatic
+4.2,Toyota,Passo,2004,100000,Petrol,1000,Automatic
+6.8,Suzuki,Wagon R,2018,62800,Hybrid,658,Automatic
+25,Land Rover,Defender,2012,88600,Diesel,2402,Manual
+33,Mercedes Benz,C200,2024,3000,Hybrid,1500,Tiptronic
+37.5,Mercedes Benz,C200,2023,4000,Petrol,1500,Automatic
+12.95,Toyota,Premio,2015,200000,Petrol,1500,Automatic
+5.9,Nissan,Navara,2010,188000,Diesel,3,Automatic
+6.675,Toyota,Vitz,2015,115000,Petrol,1000,Automatic
+20.5,Mercedes Benz,C180,2016,24500,Petrol,1600,Automatic
+56,Toyota,Land Cruiser Prado,2024,3200,Petrol,2777,Automatic
+6.85,Toyota,Vitz,2015,160000,Petrol,1000,Automatic
+7.35,Nissan,Dayz,2023,24666,Petrol,650,Automatic
+6.475,Suzuki,Wagon R,2018,99000,Hybrid,650,Automatic
+6.5,Suzuki,Wagon R FZ,2017,96000,Hybrid,650,Automatic
+9.989,Chery,Tiggo 4 Pro,2025,0,Petrol,1500,Automatic
+35.75,Toyota,Land Cruiser Prado,2015,147500,Diesel,3000,Tiptronic
+13.9,Mitsubishi,Outlander,2015,115000,Hybrid,2000,Automatic
+26.45,Mitsubishi,Montero,2016,142500,Diesel,3200,Tiptronic
+28.5,Mitsubishi,Montero,2015,142000,Diesel,3200,Automatic
+22.65,Toyota,Hilux,2020,69500,Diesel,2800,Tiptronic
+6.595,Toyota,Passo,2016,72000,Petrol,1000,Automatic
+35.5,Toyota,Land Cruiser Prado,2015,85000,Petrol,2700,Automatic
+6.45,Honda,N-Box,2016,56000,Petrol,650,Automatic
+13.25,Toyota,CHR,2018,110000,Petrol,1200,Automatic
+1.55,Chery,QQ,2008,72000,Petrol,800,Manual
+3.15,Zotye,Z100,2020,67000,Petrol,999,Manual
+17.05,Honda,CRV,2018,112716,Petrol,1500,Automatic
+89,Toyota,Land Cruiser Sahara,2025,0,Petrol,3500,Automatic
+5.175,Toyota,Vitz,2009,158000,Petrol,1000,Automatic
+8.69,Suzuki,S-Cross,2018,86500,Petrol,1000,Tiptronic
+7.9,DFSK,Glory,2019,69000,Petrol,1500,Automatic
+11.8,Toyota,Urban Cruiser,2024,39,Hybrid,1000,Automatic
+13,Toyota,Vanguard,2012,238000,Petrol,2400,Tiptronic
+16.1,Audi,Q2,2019,44000,Petrol,1000,Automatic
+22.8,Mitsubishi,L200,2025,299,Diesel,2400,Automatic
+14.25,BMW,318i,2014,52000,Petrol,1500,Automatic
+20.25,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+9.95,Toyota,Yaris,2023,7754,Petrol,1000,Automatic
+255,Mercedes Benz,Other Model,2025,100,Petrol,4000,Automatic
+26,Peugeot,408,2025,10,Hybrid,1200,Automatic
+17.35,Toyota,Yaris,2025,0,Hybrid,1500,Automatic
+3.175,Perodua,Kelisa,2006,145000,Petrol,1000,Automatic
+14,Micro,Almaz,2023,19500,Petrol,1500,Automatic
+5.475,Suzuki,Wagon R Stingray,2014,98000,Petrol,600,Automatic
+22.15,Ford,Ranger,2018,86000,Diesel,3200,Automatic
+18.7,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+20.69,Honda,ZRV Z,2024,3000,Petrol,1500,Automatic
+46.5,Toyota,Land Cruiser Prado,2011,181512,Diesel,4500,Automatic
+12.1,Honda,Fit Shuttle,2016,85000,Hybrid,1500,Automatic
+4.99,Suzuki,Swift,2006,142147,Petrol,1300,Automatic
+10.89,Toyota,Raize,2020,98452,Petrol,1000,Automatic
+5.39,Suzuki,Wagon R FZ,2015,108542,Hybrid,650,Automatic
+14,Toyota,Land Cruiser Prado,2006,190000,Petrol,2700,Manual
+9.8,Honda,Fit Shuttle,2014,165000,Hybrid,1330,Automatic
+43,Land Rover,Range Rover Sport,2017,53214,Diesel,2000,Automatic
+3.79,Chevrolet,Cruze,2003,118087,Petrol,1300,Automatic
+13.55,Ford,Raptor Ranger,2015,136521,Diesel,3200,Manual
+2.425,Fiat,Punto,2002,116000,Petrol,1200,Manual
+12.7,Toyota,Raize,2022,29000,Hybrid,1200,Automatic
+10.8,Daihatsu,Thor,2023,9000,Petrol,1000,Automatic
+11.075,DFSK,Glory,2023,98000,Petrol,1500,Automatic
+6.975,Toyota,Rush,2009,152442,Petrol,1500,Automatic
+6.6,Toyota,Corolla,2008,220000,Petrol,1590,Automatic
+13.85,Toyota,CHR,2018,22000,Petrol,1200,Automatic
+41,Toyota,Land Cruiser Prado,2017,128000,Petrol,2700,Automatic
+17.5,Toyota,Yaris Cross,2025,0,Hybrid,1490,Automatic
+69,BMW,X2,2025,1000,Petrol,2000,Tiptronic
+11.495,Honda,Vezel,2017,71000,Hybrid,1500,Automatic
+8.495,Toyota,Aqua,2015,140000,Hybrid,1500,Automatic
+7.295,Suzuki,Wagon R,2024,19000,Hybrid,650,Automatic
+13.89,Toyota,Raize,2025,100,Hybrid,1200,Automatic
+12.4,Kia,Other Model,2026,0,Petrol,990,Automatic
+51.8,Toyota,Land Cruiser Prado,2023,14000,Petrol,2800,Automatic
+24.79,BMW,318i,2019,24000,Petrol,1500,Automatic
+3.975,Chevrolet,Aveo,2008,127000,Petrol,1400,Manual
+28.9,Toyota,Hilux,2026,0,Diesel,2800,Tiptronic
+15.45,Audi,A3,2023,10000,Petrol,1000,Automatic
+12.7,Daihatsu,Rocky,2025,0,Hybrid,1200,Automatic
+9.95,Kia,Sorento,2011,180000,Diesel,2200,Automatic
+11,Toyota,Prius,2012,155000,Hybrid,1800,Automatic
+11.7,Peugeot,3008,2016,122000,Diesel,1199,Tiptronic
+11.35,Kia,Sorento,2012,175000,Diesel,2200,Automatic
+6.9,Toyota,Vitz,2016,151054,Petrol,1000,Automatic
+4.55,Suzuki,Alto,2016,105000,Petrol,998,Automatic
+7.95,Daihatsu,Taft,2023,9000,Petrol,650,Automatic
+51.5,Toyota,Land Cruiser Prado,2023,18000,Petrol,2700,Tiptronic
+16,Mercedes Benz,C180,2015,89000,Petrol,1600,Tiptronic
+13.285,Mitsubishi,Eclipse Cross,2018,80000,Petrol,1500,Automatic
+3.625,Suzuki,Alto,2015,148000,Petrol,800,Manual
+9.85,Toyota,Premio,2012,172659,Petrol,1500,Automatic
+5.2,Suzuki,Wagon R,2014,13500,Petrol,650,Automatic
+12.45,Other brand,Other model,2025,6000,Petrol,1500,Automatic
+10.4,Toyota,Roomy,2023,10900,Petrol,1000,Automatic
+14,Toyota,Yaris Ativ,2025,12,Petrol,1,Automatic
+12.85,Mitsubishi,Eclipse Cross,2018,73000,Petrol,1500,Automatic
+12,Nissan,Teana,2010,178000,Petrol,2500,Automatic
+12.5,Mitsubishi,Montero,2003,129000,Petrol,3800,Automatic
+3.6,Maruti Suzuki,Alto,2015,230000,Petrol,800,Manual
+2.8,Micro,Panda,2015,90000,Petrol,1000,Manual
+34.6,Ford,Raptor Ranger,2025,0,Diesel,2000,Tiptronic
+21.2,Toyota,Yaris Cross,2025,0,Hybrid,1500,Automatic
+11,Nissan,X-Trail,2016,143973,Petrol,1997,Automatic
+11.15,Toyota,Prius,2013,131000,Hybrid,1800,Automatic
+41.5,BMW,X5,2018,72000,Diesel,2000,Automatic
+12.9,Mitsubishi,L200,2016,165000,Diesel,2500,Manual
+9.2,Honda,Grace,2015,47500,Petrol,1500,Automatic
+62.85,BMW,525i,2025,0,Petrol,2000,Automatic
+19.5,Chrysler,300,2012,33000,Petrol,4200,Automatic
+52.9,Toyota,Crown,2024,7000,Hybrid,2500,Automatic
+44.8,Mercedes Benz,GLB,2025,0,Petrol,1300,Automatic
+30.45,Toyota,Voxy,2025,0,Hybrid,1800,Automatic
+14,Audi,Q3,2016,100000,Petrol,1600,Automatic
+29.6,Ford,Raptor Ranger,2024,0,Diesel,3000,Tiptronic
+57.5,Toyota,Land Cruiser Prado,2024,3500,Petrol,2700,Automatic
+59.5,Toyota,Crown,2024,0,Hybrid,2500,Automatic
+28.45,Toyota,Corolla,2025,0,Hybrid,1800,Automatic
+26.5,Mercedes Benz,E200,2016,39500,Petrol,2000,Tiptronic
+6.975,Suzuki,Wagon R FX,2024,6000,Petrol,660,Automatic
+16.750001,Toyota,CHR,2023,15000,Petrol,1200,Automatic
+6.8,Toyota,Vitz,2015,104000,Petrol,1000,Automatic
+17.95,Audi,A3,2023,13000,Petrol,1000,Automatic
+25.7,Honda,CRV,2025,68,Petrol,1500,Automatic
+25.7,Honda,CRV,2025,20,Petrol,1500,Automatic
+17.3,Honda,Vezel,2025,5,Hybrid,1500,Automatic
+25.6,Honda,CRV,2025,5,Petrol,1500,Automatic
+13.5,Toyota,Raize,2025,50,Hybrid,1200,Automatic
+17.9,Honda,Vezel,2025,18,Hybrid,1500,Automatic
+7.15,Toyota,Aqua,2014,130000,Hybrid,1500,Automatic
+8.5,Nissan,Dayz,2024,2500,Hybrid,660,Automatic
+15.95,Toyota,Axio,2025,0,Hybrid,1500,Automatic
+3.15,Micro,MX 7,2012,182500,Petrol,1500,Manual
+10.675,Kia,Other Model,2026,0,Petrol,1000,Automatic
+10.75,Toyota,Roomy,2025,0,Petrol,1000,Automatic
+11.675,Kia,Other Model,2026,0,Petrol,1000,Automatic
+30.85,Honda,CRV,2025,0,Petrol,1500,Automatic
+8.45,Suzuki,Other Model,2025,5,Petrol,660,Automatic
+26.9,Toyota,Other Model,2023,15000,Diesel,2800,Automatic
+6.38,Honda,Fit,2012,120000,Petrol,1330,Automatic
+18.5,BMW,520d,2013,224000,Diesel,2000,Automatic
+8.25,Suzuki,Wagon R FX,2024,12800,Hybrid,650,Automatic
+3.975,Micro,Geely,2017,60000,Petrol,1000,Automatic
+8.99,Nissan,Roox,2024,0,Hybrid,660,Automatic
+14.3,Toyota,Raize,2025,0,Hybrid,1200,Automatic
+6.9,Toyota,Vitz,2016,74000,Petrol,1000,Automatic
+14,Toyota,Raize,2025,0,Hybrid,1200,Automatic
+15.45,Audi,Q2,2020,23000,Petrol,1000,Automatic
+9,Toyota,Prius,2012,170000,Hybrid,1800,Automatic
+10.25,Toyota,Roomy,2024,1500,Petrol,1000,Automatic
+8.6,Suzuki,Wagon R ZX,2025,0,Hybrid,660,Automatic
+16.95,Jeep,Compass,2019,46000,Petrol,1400,Automatic
+5.29,Suzuki,Celerio,2017,115000,Petrol,1000,Automatic
+16.875,Honda,Vezel,2025,0,Hybrid,1490,Automatic
+14.4,Toyota,Raize,2026,0,Hybrid,1200,Automatic
+55,Toyota,Land Cruiser Prado,2018,16000,Diesel,2755,Automatic
+24.5,Toyota,Hilux,2025,250,Diesel,2800,Automatic
+58.5,Mercedes Benz,E200,2024,6500,Petrol,2000,Automatic
+47,Mercedes Benz,S500,2015,112000,Petrol,2996,Tiptronic
+6.5,Toyota,Yaris,2010,179000,Petrol,1300,Automatic
+12.8,Volkswagen,T-Cross,2023,15100,Petrol,1000,Automatic
+19.95,Honda,Vezel,2025,0,Petrol,1500,Automatic
+20.35,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+9.75,Toyota,Axio,2016,120000,CNG,1500,Automatic
+2.84,Nissan,Pulsar,1997,100000,Petrol,1500,Automatic
+10.7,Tata,Other Model,2025,11000,Petrol,1200,Automatic
+5.625,Suzuki,Celerio,2018,64000,Petrol,1000,Automatic
+5.1,Daihatsu,Terios,2001,195195,Petrol,650,Automatic
+11,Suzuki,Vitara,2020,28000,Petrol,1000,Tiptronic
+13.49,Toyota,CHR,2018,86000,Petrol,1200,Automatic
+8.2,Toyota,Allion,2007,180000,Petrol,1500,Automatic
+2.175,Maruti,Other Model,2007,131200,Petrol,800,Manual
+15.95,Toyota,Premio,2018,78000,Petrol,1500,Automatic
+18.7,Honda,Vezel,2024,0,Hybrid,1500,Automatic
+13.5,Audi,A3,2018,160000,Petrol,1200,Automatic
+6.75,Honda,Fit,2013,64000,Hybrid,1300,Automatic
+49.5,Land Rover,Range Rover Sport,2019,55000,Petrol,2000,Automatic
+12.49,Kia,Other Model,2025,0,Petrol,1000,Automatic
+0.775,Nissan,AD Wagon,1985,31222,Petrol,1500,Manual
+19.95,Honda,Vezel,2025,0,Petrol,1500,Automatic
+30,Mercedes Benz,E300,2018,30000,Petrol,2000,Automatic
+39.9,Toyota,Land Cruiser Prado,2017,75000,Petrol,2700,Automatic
+20.5,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+6.5,Nissan,Tiida,2008,73500,Petrol,1500,Automatic
+12.3,Toyota,Raize,2025,0,Petrol,1000,Automatic
+13.75,Toyota,Land Cruiser Prado,2004,172500,Petrol,2700,Automatic
+6.585,Suzuki,Alto,2024,4000,Petrol,660,Automatic
+4.3,Isuzu,D-Max,1998,300000,Diesel,2499,Manual
+10.5,Kia,Sorento,2011,130000,Diesel,2200,Automatic
+8.89,Toyota,Roomy,2023,6000,Petrol,1000,Automatic
+14.8,Mitsubishi,Montero,2011,131800,Diesel,2500,Tiptronic
+18.5,Audi,A3,2023,8000,Petrol,1000,Automatic
+17.75,Honda,Vezel,2024,3500,Hybrid,1500,Automatic
+89.5,Porsche,Taycan,2024,5000,Electric,800,Automatic
+30.999999,Nissan,X-Trail,2025,0,Petrol,1498,Automatic
+59,Jeep,Wrangler,2025,0,Petrol,1995,Automatic
+65,Toyota,Land Cruiser Prado,2025,0,Petrol,2755,Automatic
+37.65,Land Rover,Discovery,2019,142500,Diesel,2000,Automatic
+19.5,Land Rover,Defender,2015,160000,Diesel,2500,Automatic
+8.5,Toyota,Vitz,2018,43000,Petrol,990,Automatic
+18.25,Toyota,Yaris Ativ,2025,0,Hybrid,1500,Automatic
+20.39,Honda,Vezel,2025,5,Hybrid,1490,Automatic
+8.45,Daihatsu,Taft,2024,0,Petrol,660,Automatic
+6.65,Suzuki,Alto,2024,18000,Petrol,660,Automatic
+13.99,Toyota,Raize,2025,14,Hybrid,1200,Automatic
+34.59,BMW,i4,2022,18000,Electric,250,Automatic
+6.84,Suzuki,Wagon R Stingray,2018,82123,Petrol,660,Automatic
+24.78,BMW,318i,2019,24000,Petrol,1500,Automatic
+9.85,Toyota,Yaris,2023,25000,Petrol,1000,Automatic
+48.59,Mercedes Benz,EQE 300,2024,20000,Electric,180,Automatic
+14.3,Toyota,Raize,2025,0,Hybrid,1200,Automatic
+18.25,Toyota,Yaris Ativ,2025,0,Hybrid,1500,Automatic
+19.1,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+9.2,Hyundai,Tucson,2013,82899,Diesel,2000,Automatic
+6.65,Toyota,Corolla,2007,129690,Petrol,1794,Automatic
+26.95,Toyota,Land Cruiser Prado,2011,125814,Petrol,2700,Automatic
+12.25,Kia,Other Model,2025,0,Petrol,1000,Automatic
+4.4,Hyundai,Eon,2017,126000,Petrol,800,Manual
+20.15,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+25,Land Rover,Discovery,2013,193000,Diesel,3000,Automatic
+29.55,Toyota,Hilux,2025,0,Diesel,2800,Automatic
+107,BMW,X5,2025,0,Hybrid,3000,Automatic
+11,Nissan,X-Trail,2016,160000,Petrol,1990,Automatic
+7.69,Toyota,Vitz,2017,45000,Petrol,1000,Automatic
+6.39,Daihatsu,Mira,2024,2000,Petrol,660,Automatic
+7.45,Toyota,Tank,2017,93000,Petrol,1000,Automatic
+3.625,Nissan,March,2001,198500,Petrol,990,Automatic
+13,Toyota,Raize,2023,20000,Petrol,1200,Automatic
+12,Land Rover,Freelander,2013,64430,Diesel,2200,Automatic
+8.35,Suzuki,Wagon R ZX,2023,12000,Petrol,660,Automatic
+9.3,Honda,Freed,2013,90500,Petrol,1490,Automatic
+5.975,Daihatsu,Mira,2023,17000,Petrol,660,Automatic
+14.39,Toyota,Raize,2025,0,Hybrid,1200,Automatic
+6.75,Toyota,Corolla,2008,108000,Petrol,1600,Automatic
+13.19,Kia,Other Model,2026,5,Petrol,998,Automatic
+8.675,Suzuki,Wagon R Stingray,2023,2500,Petrol,660,Automatic
+5.79,Nissan,Dayz,2015,49860,Petrol,650,Automatic
+6.55,Mitsubishi,eK Wagon,2024,4000,Petrol,660,Automatic
+105,Toyota,Land Cruiser Sahara,2025,0,Diesel,3300,Automatic
+197.5,Land Rover,Range Rover,2025,0,Petrol,3000,Automatic
+197.5,Land Rover,Range Rover,2025,0,Petrol,3000,Automatic
+156.5,Land Rover,Range Rover,2025,0,Petrol,3000,Automatic
+57.5,Toyota,Alphard,2025,0,Hybrid,2500,Automatic
+92.5,Toyota,Land Cruiser Sahara,2024,4000,Petrol,3500,Automatic
+26.5,Land Rover,Range Rover,2008,90000,Diesel,4400,Automatic
+95.5,Toyota,Land Cruiser Sahara,2025,0,Petrol,3500,Automatic
+8.5,Daihatsu,Taft,2023,13000,Petrol,660,Automatic
+8.8,Daihatsu,Taft,2023,8000,Petrol,660,Automatic
+8.8,Daihatsu,Taft,2024,9000,Petrol,660,Automatic
+16.7,Honda,Vezel,2022,13500,Petrol,1500,Automatic
+8.8,Mitsubishi,eK Space,2023,10000,Petrol,658,Automatic
+8.35,Nissan,Dayz,2023,5000,Petrol,659,Automatic
+7.5,Suzuki,Wagon R,2024,6000,Petrol,658,Automatic
+16.95,Toyota,Yaris Cross,2023,4000,Petrol,1500,Automatic
+16,Honda,CRV,2018,112700,Petrol,1500,Automatic
+46.5,Toyota,Land Cruiser Sahara,2010,115000,Diesel,4500,Automatic
+7.65,Suzuki,Wagon R,2024,3000,Petrol,660,Automatic
+61.5,Toyota,Land Cruiser Prado,2017,29000,Diesel,2800,Automatic
+45.85,Land Rover,Range Rover Evoque,2024,10000,Petrol,1500,Automatic
+9.8,Suzuki,Other Model,2025,0,Petrol,658,Automatic
+8.75,Daihatsu,Taft,2024,0,Petrol,660,Automatic
+13.4,Suzuki,Swift,2024,13000,Petrol,1,Automatic
+4.3,Toyota,Hilux,1982,166920,Diesel,2160,Manual
+12.8,Suzuki,Swift,2024,3530,Hybrid,1200,Automatic
+7.8,Daihatsu,Mira,2023,6300,Petrol,660,Automatic
+10.35,Toyota,Yaris,2024,14000,Petrol,1000,Automatic
+36.5,Ford,Raptor Ranger,2025,0,Diesel,2000,Automatic
+9.85,Honda,N-Box,2025,0,Petrol,660,Automatic
+19,Honda,Vezel,2024,13000,Hybrid,1500,Automatic
+8.8,Honda,N-WGN,2024,0,Petrol,660,Automatic
+13.5,Nissan,Almera,2025,0,Petrol,1000,Automatic
+17.5,Honda,WR-V,2024,0,Petrol,1500,Automatic
+13.5,Nissan,Almera,2025,0,Petrol,1000,Automatic
+10.95,Daihatsu,Copen,2024,2750,Petrol,660,Automatic
+13.25,Suzuki,Swift,2024,0,Hybrid,1200,Automatic
+14.45,Mitsubishi,Montero,2012,161000,Diesel,2500,Automatic
+9.15,Suzuki,Wagon R,2023,0,Hybrid,660,Automatic
+155,Land Rover,Range Rover,2025,0,Hybrid,3000,Automatic
+63.5,Toyota,Land Cruiser Prado,2024,3000,Petrol,2700,Automatic
+8.69,Toyota,Roomy,2023,11000,Petrol,1000,Automatic
+9.4,Toyota,Roomy,2023,6000,Petrol,1000,Automatic
+11.475,Honda,Vezel,2017,98000,Hybrid,1500,Automatic
+9.324,Toyota,Premio,2007,160000,Petrol,1500,Automatic
+8.25,Toyota,Aqua,2015,85000,Hybrid,1500,Automatic
+8.95,Suzuki,Swift,2018,50000,Petrol,1000,Automatic
+3.65,Suzuki,Swift,2001,180800,Petrol,1320,Automatic
+9.7,Mitsubishi,L200,2007,185000,Diesel,2500,Manual
+3.825,Suzuki,Alto,2014,96500,Petrol,800,Manual
+11.65,Toyota,Raize,2024,21000,Petrol,1000,Automatic
+13.19,Kia,Other Model,2026,10,Petrol,998,Automatic
+1.325,Tata,Nano,2013,95413,Petrol,650,Manual
+10.5,Toyota,Axio,2015,81000,Hybrid,1500,Automatic
+5.95,Nissan,Dayz,2015,33000,Petrol,660,Automatic
+10,Kia,Sorento,2011,182000,Diesel,2200,Automatic
+2.3,Nissan,Sunny,1994,250000,Petrol,1250,Manual
+9,Toyota,Yaris,2023,10000,Petrol,1000,Automatic
+13.1,Mitsubishi,Montero,2003,129000,Petrol,3000,Automatic
+8.45,Daihatsu,Taft,2024,200,Petrol,660,Automatic
+20.2,Honda,Vezel,2025,0,Hybrid,1490,Automatic
+20.3,Honda,Vezel,2025,0,Hybrid,1500,Automatic
+41.9,Mercedes Benz,C200,2025,2100,Petrol,1500,Automatic
+10,Nissan,Magnite,2025,43,Petrol,1000,Automatic
+24.5,Honda,Step Wagon,2024,2800,Petrol,1500,Automatic
+2.5,Suzuki,Maruti,2006,67190,Petrol,993,Manual
+10.5,Toyota,Roomy,2023,18000,Petrol,1000,Automatic
+10.5,Suzuki,Spacia,2025,0,Hybrid,650,Automatic
+37.5,Audi,Q3,2025,0,Petrol,1400,Automatic
+11.5,Toyota,Taisor,2024,270,Petrol,1000,Automatic
+24.5,Audi,Q7,2016,89000,Petrol,1990,Automatic
+6.85,Honda,Insight,2010,105000,Hybrid,1339,Automatic
+8.5,Suzuki,Wagon R,2024,0,Petrol,650,Automatic
+89.5,Land Rover,Defender,2025,0,Hybrid,2000,Automatic
+9,Toyota,Roomy,2022,33000,Petrol,1000,Automatic
+9.6,Daihatsu,Thor,2023,11700,Petrol,1000,Automatic
+9.8,Daihatsu,Thor,2022,21000,Petrol,1000,Automatic
+11.9,Mitsubishi,Lancer,2014,169000,Petrol,1600,Automatic
+9.2,Mazda,Flair,2024,6200,Petrol,650,Automatic
+24.5,BYD,Seal,2024,200,Electric,150,Automatic
+2.6,Hyundai,Accent,2001,120000,Petrol,1500,Manual
+3.5,Volkswagen,Beetle,1971,100000,Petrol,1300,Manual
+29.5,Ford,Ranger,2025,0,Diesel,2000,Automatic
+69.5,Toyota,Alphard,2025,0,Petrol,2400,Automatic
+13.45,Audi,Q5,2011,87500,Petrol,2000,Automatic
+14,Toyota,Raize,2025,0,Hybrid,1200,Automatic
+32.5,Mercedes Benz,CLA45,2016,55000,Petrol,2000,Automatic
+47.75,Toyota,Harrier,2025,100,Hybrid,2500,Automatic
+33.6,Ford,Raptor Ranger,2025,0,Diesel,2000,Tiptronic
+16.5,Honda,Vezel,2024,17000,Hybrid,1500,Automatic
+17.5,Toyota,Other Model,2025,0,Hybrid,1500,Automatic
+7.85,Honda,N-WGN,2025,0,Petrol,650,Automatic
+39.8,Kia,Sorento,2025,0,Hybrid,1600,Automatic
+87.5,Land Rover,Defender,2025,0,Hybrid,2000,Automatic
+11.575,Kia,Other Model,2025,0,Petrol,1000,Automatic
+29.6,Toyota,Hilux,2025,200,Diesel,2800,Automatic
+45.95,Toyota,Land Cruiser Prado,2017,67500,Diesel,3000,Automatic
+29.5,Toyota,Hilux,2025,0,Diesel,2800,Automatic
+26,BMW,420i,2025,0,Petrol,1998,Automatic
+16.8,BMW,X1,2018,96300,Petrol,1500,Automatic
+7.75,Toyota,Aqua,2014,88000,Hybrid,1496,Automatic
+64.49,Toyota,Alphard,2024,500,Hybrid,2500,Automatic
+40,Mercedes Benz,EQB 300,2023,14000,Electric,125,Automatic
+11,Nissan,X-Trail,2014,96000,Petrol,2000,Automatic
+6.3,Toyota,Hilux,1993,305000,Diesel,2770,Manual
+17.5,Toyota,Yaris Ativ,2025,100,Hybrid,1500,Automatic
+10.8,Toyota,Axio,2016,103119,Hybrid,1490,Automatic
+75.5,Land Rover,Range Rover,2020,52000,Hybrid,2000,Automatic
+12.275,Toyota,Raize,2025,0,Petrol,1000,Automatic
+11.25,Toyota,Prius,2013,137000,Petrol,1800,Automatic
+57.5,Toyota,Alphard,2024,0,Hybrid,2500,Automatic
+5.8,Ssang Yong,Actyon,2009,181670,Diesel,2000,Automatic
+2.78,Toyota,Starlet,1991,230000,Diesel,1500,Automatic
+68,Land Rover,Defender,2023,8500,Petrol,2000,Tiptronic
+22.95,Mercedes Benz,E200,2012,11000,Petrol,1800,Automatic
+15.4,Peugeot,3008,2018,25000,Petrol,1200,Automatic
+4.65,Nissan,Sunny,2021,184177,Petrol,1466,Manual
+18.75,Honda,CRV,2018,59000,Petrol,1500,Automatic
+8.25,Daihatsu,Tanto,2023,1450,Petrol,660,Automatic
+5.6,BMW,520i,1996,60000,Petrol,2000,Manual
+10.6,Toyota,Prius,2013,100000,Hybrid,1800,Automatic
+25.8,Toyota,Hilux,2025,0,Diesel,2800,Automatic
+12.75,Kia,Other Model,2026,0,Petrol,1000,Automatic
+8.5,Toyota,Premio,2008,355000,Petrol,1490,Automatic
+8.75,Suzuki,Wagon R Stingray,2025,0,Hybrid,650,Automatic
+19.975,Kia,Seltos,2026,0,Petrol,1500,Automatic
+13.4,Honda,City,2025,0,Petrol,1000,Automatic
+71,Audi,Q7,2025,0,Petrol,2000,Automatic
+18.95,BMW,740Li,2011,90000,Petrol,3000,Automatic
+9.6,Honda,Freed,2013,19000,Petrol,1490,Automatic
+37.5,Toyota,Land Cruiser Sahara,2008,244000,Petrol,4200,Automatic
+35,Audi,e-tron,2024,5500,Electric,230,Automatic
+7.65,Suzuki,Wagon R FX,2024,3590,Hybrid,660,Automatic
+35.875,BMW,X5,2016,49000,Petrol,2000,Automatic
+13.4,Toyota,Raize,2024,30000,Hybrid,1200,Automatic
+17.8,Toyota,Hilux,2016,130000,Diesel,2800,Automatic
+12.7,Skoda,Other Model,2025,0,Petrol,1000,Automatic
+16.99,Toyota,CHR,2023,16000,Petrol,1290,Automatic
+7.1,Toyota,Allion,2005,195000,Petrol,1500,Automatic
+12.9,Honda,City,2025,0,Petrol,1000,Automatic
+21,Mercedes Benz,C180,2017,85000,Petrol,1600,Automatic
+33.9,Toyota,Land Cruiser Prado,2015,150000,Petrol,2700,Tiptronic
+10.2,Toyota,Roomy,2024,6500,Petrol,1000,Automatic
+14.65,Toyota,Yaris Cross,2022,25000,Petrol,1500,Automatic
+14.4,Toyota,Raize,2021,7500,Hybrid,1200,Automatic
+13.65,Toyota,Raize,2025,5000,Hybrid,1200,Automatic
+16,Volkswagen,Tiguan,2018,78000,Petrol,1399,Automatic
+5.895,Perodua,Axia,2016,69000,Petrol,998,Automatic
+6.575,Suzuki,Ertiga,2018,180000,Petrol,1400,Automatic
+15.7,Toyota,Premio,2019,96026,Petrol,1499,Automatic
+16.5,Toyota,Yaris Cross,2025,365,Petrol,1500,Automatic
+15.8,Toyota,Corolla,2023,38000,Petrol,1500,Automatic
+5.4,Perodua,Axia,2017,119750,Petrol,998,Automatic
+31.5,Audi,Q3,2023,6000,Petrol,1500,Automatic
+57.5,Land Rover,Range Rover Evoque,2025,0,Hybrid,1500,Automatic
+13.99,Toyota,Raize,2025,0,Hybrid,1200,Automatic
+11.75,Toyota,Taisor,2025,0,Petrol,1000,Automatic
+12.5,Kia,Other Model,2026,100,Petrol,1000,Automatic
+7.05,Suzuki,Wagon R Stingray,2018,80099,Hybrid,650,Automatic
+6.875,Toyota,Yaris,2008,147970,Petrol,1298,Automatic
+8.99,MG,ZS,2019,38254,Petrol,999,Automatic
+58.5,Land Rover,Discovery Sport,2025,0,Hybrid,1500,Automatic
+6.49,Daihatsu,Mira,2025,2000,Petrol,660,Automatic
+5.6,Suzuki,Wagon R,2014,188000,Petrol,650,Automatic
+24.5,Toyota,Hilux,2023,13000,Diesel,2755,Automatic
+85.5,Toyota,Land Cruiser Prado,2024,7000,Diesel,2755,Automatic
+12,Volkswagen,Polo,2023,12000,Petrol,1000,Automatic
+12.5,Toyota,Premio,2013,76000,Petrol,1490,Automatic
+3.265,Nissan,March,1999,162324,Petrol,990,Automatic
+6.65,Honda,Fit,2012,93660,Hybrid,1330,Automatic
+9.79,Nissan,Magnite,2025,0,Petrol,1000,Automatic
+64.5,Land Rover,Range Rover Sport,2018,83000,Petrol,2000,Automatic
+16,Toyota,Premio,2018,80000,Petrol,1499,Automatic
+120,Toyota,Land Cruiser Sahara,2005,100,Diesel,3346,Automatic
+4.495,Toyota,Carina,1998,236653,Diesel,1970,Automatic
+17.95,Mitsubishi,Outlander,2016,125000,Hybrid,2000,Automatic
+13,Audi,Q2,2019,89000,Petrol,1000,Automatic
+3.585,Suzuki,Alto,2015,94000,Petrol,800,Manual
+15.75,Mitsubishi,Outlander,2015,104000,Hybrid,2000,Automatic
+13,Honda,Civic,2018,99000,Petrol,1000,Automatic
+6.5,Toyota,Vitz,2014,200000,Petrol,1000,Automatic
+11.99,Toyota,Taisor,2025,110,Petrol,1000,Automatic
+18.15,Land Rover,Range Rover Evoque,2013,125000,Diesel,2200,Automatic
+2.69,Nissan,March,1998,112400,Petrol,1300,Manual
+28.75,Toyota,Hilux,2025,0,Diesel,2800,Automatic
+5.495,Peugeot,407,2007,137000,Petrol,1749,Manual
+7.45,Honda,Civic,2006,113000,Petrol,1800,Automatic
+28.65,Toyota,Hilux,2025,0,Diesel,2800,Automatic
+6,Mahindra,KUV 100,2022,81500,Diesel,1198,Automatic
+20.7,Kia,Sorento,2015,94000,Diesel,2200,Automatic
+17.6,Honda,Vezel,2025,0,Hybrid,1490,Automatic
+21.5,Audi,A3,2023,8500,Petrol,1000,Automatic
+8.49,Toyota,Allion,2007,195000,Petrol,1500,Automatic
+20.5,Land Rover,Freelander,2013,53000,Diesel,2200,Tiptronic
+0.72,Nissan,Other Model,1978,96568,Petrol,1200,Manual
+15.2,BAIC,X55 II,2025,0,Petrol,1500,Automatic
+7.975,Toyota,Vitz,2018,69000,Petrol,1000,Automatic
+3.895,Toyota,Corona,1995,263175,Petrol,1500,Automatic
+7.65,Suzuki,Wagon R,2024,15000,Petrol,660,Automatic
+15.9,Mercedes Benz,GLA 200,2017,105000,Petrol,1599,Automatic
+28.5,Mercedes Benz,EQB,2024,7000,Petrol,1300,Automatic
+6.25,Nissan,Dayz,2016,115000,Petrol,660,Automatic
+25,Toyota,Hilux,2025,2800,Diesel,2800,Automatic
+5,Chrysler,Other Model,2004,75000,Petrol,3300,Automatic
+11.275,Toyota,Prius,2013,50000,Hybrid,1800,Automatic
+17.5,Land Rover,Range Rover Evoque,2013,73000,Diesel,2000,Automatic
+18.85,Mercedes Benz,GLA 180,2018,81000,Petrol,1600,Automatic
+6.275,Toyota,Corolla,2002,140000,Diesel,2200,Manual
+4.85,Suzuki,Celerio,2015,142000,Petrol,1000,Automatic
+89,Toyota,Land Cruiser Sahara,2025,0,Petrol,3500,Automatic
+6.45,Daihatsu,Mira,2024,2000,Petrol,660,Automatic
+11.9,Toyota,Taisor,2025,0,Petrol,1000,Automatic
+7.15,Suzuki,Wagon R Stingray,2018,130000,Petrol,650,Automatic
+122,Lexus,LX600,2025,0,Petrol,3500,Automatic
+12.25,Toyota,Taisor,2026,0,Petrol,1000,Automatic
+7.275,Ford,Ecosport,2017,160000,Petrol,1500,Automatic
+5.195,Suzuki,Other Model,2016,89171,Petrol,650,Automatic
+12.25,Toyota,Taisor,2026,0,Petrol,1000,Automatic
+140,Lexus,Other Model,2025,0,Hybrid,3500,Automatic
+11.75,Ssang Yong,Rexton,2015,110000,Diesel,2000,Automatic
+8.45,Suzuki,Hustler,2025,215,Hybrid,650,Automatic
+12.15,Kia,Other Model,2025,78,Petrol,1000,Automatic
+6.975,Ford,Ecosport,2015,120000,Petrol,1500,Automatic
+6.39,Daihatsu,Mira,2023,2000,Petrol,660,Automatic
+11,Toyota,Taisor,2025,0,Petrol,1000,Automatic
+3.35,Suzuki,Wagon R,2003,206000,Petrol,990,Manual
+11,Toyota,Taisor,2025,0,Petrol,1000,Automatic
+7.975,Honda,CRV,2011,180000,Petrol,2000,Automatic
+26.1,Toyota,Hilux,2025,12,Diesel,2800,Automatic
+76,Toyota,Land Cruiser Prado,2025,0,Diesel,2800,Automatic
+7.3,Toyota,Vitz,2016,110200,Petrol,1000,Automatic
+17.39,Honda,Vezel,2023,6000,Hybrid,1500,Tiptronic
+32.5,Mercedes Benz,GLB,2024,4000,Hybrid,1300,Automatic
+26.5,BMW,X5,2016,42300,Hybrid,1997,Automatic
+3.45,Suzuki,Alto,2011,220000,Petrol,1000,Manual
+17.5,Mitsubishi,Montero,2007,155000,Diesel,3200,Tiptronic
+23.2,Toyota,Hilux,2023,16848,Diesel,2400,Automatic
+15.49,Toyota,Yaris Cross,2023,29500,Hybrid,1500,Automatic
+9.675,Toyota,Yaris,2023,17900,Petrol,1000,Automatic
+6.675,Daihatsu,Mira,2025,0,Petrol,650,Automatic
+9.45,Honda,Grace,2017,142098,Hybrid,1500,Automatic
+10.5,Honda,Vezel,2016,93000,Hybrid,1500,Automatic
+2.425,Maruti Suzuki,800,2011,84000,Petrol,800,Manual
+5.975,Toyota,Yaris,2021,130000,Diesel,1300,Automatic
+8.75,Daihatsu,Taft,2025,0,Petrol,660,Automatic
+4.1,Nissan,Cefiro,2001,185000,Petrol,2000,Automatic
+20.65,Honda,Vezel,2025,10,Hybrid,1500,Automatic
+5.875,Toyota,Corolla,2003,175000,Petrol,1500,Automatic
+11,Toyota,Taisor,2025,0,Petrol,1000,Automatic
+11,Toyota,Taisor,2025,0,Petrol,1000,Automatic
+12.3,Toyota,Raize,2025,16500,Petrol,1000,Automatic
+22.5,BMW,520d,2014,190000,Diesel,2000,Automatic
+32,Audi,Q4 E-Tron S Line,2023,0,Electric,155,Automatic
+3.85,Suzuki,Alto,2015,194000,Petrol,796,Manual
+11,Mitsubishi,Outlander,2014,123000,Hybrid,2000,Automatic
+17.45,Audi,A3,2024,6000,Petrol,1000,Automatic
+9.9,DFSK,Glory,2022,56000,Petrol,1500,Automatic
+20.7,Toyota,Yaris Cross,2025,10,Hybrid,1500,Automatic
+42.5,BMW,X1,2025,10,Hybrid,1500,Automatic
+13,Mitsubishi,Eclipse Cross,2019,105000,Petrol,1500,Automatic
+5,Toyota,Vitz,2005,149000,Petrol,990,Automatic
+50.45,Toyota,Land Cruiser Prado,2023,30000,Petrol,2700,Automatic
+32.3,Toyota,Voxy,2025,10,Hybrid,1800,Automatic
+9.475,Honda,Vezel,2014,112000,Hybrid,1500,Automatic
+6,Mitsubishi,Strada,1996,39000,Diesel,2470,Manual
+78,Toyota,Land Cruiser Prado,2024,3000,Diesel,2800,Automatic
+12.55,Toyota,CHR,2018,98000,Petrol,1200,Automatic
+92.5,Toyota,Land Cruiser Sahara,2025,10,Petrol,3500,Automatic
+7.55,Suzuki,Wagon R FX,2024,10000,Petrol,660,Automatic
+8.7,Suzuki,Wagon R ZX,2025,0,Hybrid,660,Automatic
+16,Toyota,Yaris Ativ,2025,0,Petrol,1200,Automatic
+6.95,Toyota,Vitz,2015,211000,Petrol,1000,Automatic
+16.25,Mercedes Benz,E300,2015,75000,Diesel,2000,Automatic
+8.75,Honda,Fit Shuttle,2012,200000,Hybrid,1300,Automatic
+14.25,Toyota,Raize,2025,10,Hybrid,1200,Automatic
+7.2,Perodua,Bezza,2018,85790,Petrol,1000,Automatic
+30.6,Toyota,Hilux,2025,10,Diesel,2800,Automatic
+11.5,Honda,CRV,2013,134373,Petrol,2000,Automatic
+64,Land Rover,Defender,2023,15000,Petrol,2000,Automatic
+3.59,Suzuki,Alto,2015,97000,Petrol,800,Manual
+6.99,Honda,CRV,2004,132000,Petrol,1999,Automatic
+3.075,Zotye,Z100,2016,80000,Petrol,1000,Manual
+11.95,Toyota,Taisor,2025,0,Petrol,1000,Automatic
+62.75,BMW,525i,2025,2000,Petrol,2000,Automatic
+11.7,Kia,Other Model,2026,0,Petrol,1000,Automatic
+8.75,Toyota,Roomy,2023,16500,Petrol,1000,Automatic
+9.375,Honda,Vezel,2015,110000,Hybrid,1500,Automatic
+6.7,Nissan,Leaf,2014,111350,Electric,80,Automatic
+2.2,Toyota,Corona,1988,212000,Petrol,1500,Manual
+2,Nissan,Sunny,1987,300000,Petrol,1500,Manual
+16.9,Toyota,Hilux,2016,135000,Diesel,3000,Automatic
+6.85,Honda,Insight,2009,173000,Petrol,1330,Automatic
+6.69,Daihatsu,Move,2017,71890,Petrol,650,Automatic
+0.8,Honda,Beat,1998,300000,Petrol,2000,Manual
+1.849,Tata,GenX Nano,2014,184000,Petrol,624,Manual
+8.7,Suzuki,Wagon R,2024,8500,Petrol,650,Automatic
+12.385,MG,ZS,2026,0,Petrol,999,Automatic
+50.8,Toyota,Land Cruiser Prado,2023,29000,Petrol,2700,Automatic
+17.9,Honda,Vezel,2023,60000,Hybrid,1500,Automatic
+7.85,Honda,N-Box,2023,11000,Petrol,650,Automatic
+6.675,Daihatsu,Mira,2025,0,Petrol,660,Automatic
+7.02,Suzuki,Wagon R FX,2024,7000,Petrol,660,Automatic
+18.9,Honda,Vezel,2024,12000,Hybrid,1500,Automatic
+18.95,Honda,Vezel,2024,12000,Hybrid,1500,Automatic
+18.85,Honda,Vezel,2025,6000,Hybrid,1500,Automatic
+15,Peugeot,5008,2019,75000,Petrol,1200,Automatic
+35,Mercedes Benz,GLB,2024,9000,Petrol,1330,Automatic
+61.97,Toyota,Vellfire,2025,37,Hybrid,2500,Automatic
+14.25,Mitsubishi,Eclipse Cross,2020,55000,Petrol,1500,Automatic
+23.7,Toyota,Hilux,2024,9000,Diesel,2400,Automatic
+98.9,Toyota,Land Cruiser Sahara,2025,77,Diesel,3300,Automatic
+12.95,Toyota,Prius,2016,154300,Hybrid,1800,Automatic
+6.09,Suzuki,Wagon R FX,2018,86436,Hybrid,650,Automatic
+18.59,Honda,Vezel,2026,5,Hybrid,1500,Automatic
+6.99,Suzuki,Wagon R Stingray,2017,93732,Hybrid,650,Automatic
+17.5,Toyota,Premio,2019,48536,Petrol,1490,Automatic
+8.575,Hyundai,Santa Fe,2011,125015,Diesel,2199,Automatic
+5.95,Nissan,Tiida,2010,234806,Petrol,1490,Automatic
+5.475,Daihatsu,Mira,2017,58830,Petrol,650,Automatic
+8.99,Kia,Sportage,2013,193356,Petrol,1995,Automatic
+6.45,Suzuki,Wagon R FZ,2017,122500,Hybrid,660,Automatic
+20.8,Audi,A3,2023,10000,Petrol,1000,Tiptronic
+46,Land Rover,Range Rover,2018,45500,Diesel,2000,Automatic
+10.65,Toyota,Taisor,2025,0,Petrol,1000,Automatic
+6.1,Suzuki,Alto,2024,10000,Petrol,660,Automatic
+5.025,Toyota,Passo,2009,127000,Petrol,990,Automatic
+21.75,BMW,X1,2020,34000,Petrol,1500,Automatic
+69.59,Audi,Q7,2024,0,Petrol,1984,Automatic
+50.95,Toyota,Land Cruiser Prado,2023,16200,Petrol,2700,Automatic
+25.9,Toyota,Hilux,2025,0,Diesel,2800,Automatic
+25.9,Toyota,Hilux,2025,0,Diesel,2800,Automatic
+13.75,Audi,Q3,2016,90000,Petrol,1400,Tiptronic
+25.9,Toyota,Hilux,2025,0,Diesel,2800,Automatic
+11.625,Hyundai,Venue,2025,0,Petrol,1000,Automatic
+12.5,Toyota,Taisor,2025,0,Petrol,1000,Automatic
+11.625,Hyundai,Venue,2025,0,Petrol,1000,Automatic
+2.15,Suzuki,Maruti,2005,74000,Petrol,800,Manual
+10.99,Toyota,Urban Cruiser,2025,0,Petrol,1000,Automatic
+10.99,Toyota,Urban Cruiser,2025,0,Petrol,1000,Automatic
+10.99,Toyota,Urban Cruiser,2025,0,Petrol,1000,Automatic
+10.99,Toyota,Urban Cruiser,2025,0,Petrol,1000,Automatic
+12.8,BMW,530d,2006,105942,Diesel,3000,Manual
+10.99,Toyota,Urban Cruiser,2025,0,Petrol,1000,Automatic
+9.49,Suzuki,S-Cross,2018,86000,Petrol,990,Automatic
+3.7,Nissan,March,2002,232600,Petrol,1000,Automatic
+20.6,Honda,Vezel,2025,0,Hybrid,1500,Automatic
